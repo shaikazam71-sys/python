@@ -1,0 +1,11 @@
+height = 90
+base = 50
+area = (height*base)/2
+print (type(area))
+type(area)
+x=10 
+y=7
+x/y
+x = 10
+y = 3
+x, y
