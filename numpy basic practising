@@ -1,0 +1,50 @@
+```python
+import numpy as np
+
+# NumPy Array
+marks = np.array([20, 35, 55, 75, 90])
+
+# Indexing
+print(marks[0])
+print(marks[2])
+print(marks[-1])
+
+# Slicing
+print(marks[1:4])
+print(marks[:3])
+print(marks[2:])
+print(marks[::-1])
+
+# Reverse
+print(np.reverse(marks))
+
+# 2D Array
+sales = np.array([
+    [20, 40, 60],
+    [30, 50, 70],
+    [40, 60, 80]
+])
+
+# Indexing in 2D array
+print(sales[0, 1])
+print(sales[1, 2])
+
+# Slicing in 2D array
+print(sales[0:2, 0:2])
+
+# Axis
+print(np.sum(sales, axis=0))
+print(np.sum(sales, axis=1))
+
+# Sorting
+marks = np.array([90, 20, 75, 35, 55])
+
+print(np.sort(marks))
+
+# Descending order
+print(np.sort(marks)[::-1])
+
+# Sorting 2D array
+print(np.sort(sales, axis=0))
+print(np.sort(sales, axis=1))
+```
